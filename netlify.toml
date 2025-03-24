@@ -1,0 +1,9 @@
+[build]
+  command = "bun run build"
+  publish = "out"
+
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
+[build.processing]
+  skip_processing = true
